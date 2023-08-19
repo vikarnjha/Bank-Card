@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./style.css"> -->
+    <title>Bank Card</title>
+</head>
+<body>
+    <div class="card-form">
+        <div class="card-input">
+          <label for="cardNumber" class="card-input-label"
+            >Card Number</label
+          >
+          <input
+            type="text"
+            id="cardNumber"
+            class="card-input-input"
+            autocomplete="off"
+          />
+        </div>
+        <div class="card-input">
+          <label for="cardName" class="card-input-label">Card Holders</label>
+          <input
+            type="text"
+            id="cardName"
+            class="card-input-input"
+          />
+        </div>
+        <div class="card-form-row">
+          <div class="card-form-col">
+            <div class="card-form-group">
+              <label for="cardMonth" class="card-input-label"
+                >Expiration Date</label
+              >
+              <select
+                class="card-input-input -select"
+                id="cardMonth"
+              >
+                <option value="" disabled selected>Month</option>
+                <option>01</option>
+                <option>02</option>
+                <option>03</option>
+                <option>04</option>
+                <option>05</option>
+                <option>06</option>
+                <option>07</option>
+                <option>08</option>
+                <option>09</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <select
+                class="card-input-input -select"
+                id="cardYear"
+              >
+                <option value="" disabled selected>Year</option>
+                <option>2023</option>
+                <option>2024</option>
+                <option>2025</option>
+                <option>2026</option>
+                <option>2027</option>
+                <option>2028</option>
+                <option>2029</option>
+                <option>2030</option>
+                <option>2031</option>
+                <option>2032</option>
+                <option>2033</option>
+                <option>2034</option>
+              </select>
+            </div>
+          </div>
+          <div class="card-form-col -cvv">
+            <div class="card-input">
+              <label for="cardCvv" class="card-input-label">CVV</label>
+              <input
+                type="text"
+                class="card-input-input"
+                id="cardCvv"
+                maxlength="4"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+        </div>
+    
+        <button>Submit</button>
+      </div>
+    </div>
+    </div>
+</body>
+</html>
