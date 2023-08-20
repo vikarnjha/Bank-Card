@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   padding: 2vw 4vw;
   width: 90%;
-  max-width: 600px;
+  max-width: 500px;
 }
 .card-input-label {
   font-size: 14px;
@@ -72,7 +72,8 @@ option {
   align-items: flex-start;
 }
 .-cvv {
-  width: 25%;
+  width: 30%;
+  margin-left: 30%;
 }
 .card-form-group {
   flex: 2;
