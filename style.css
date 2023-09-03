@@ -99,8 +99,46 @@ option {
 /* card view css starts here  */
 
 .upperpart {
-  border: 1px solid black;
+  box-shadow: 0 0 5px black;
+  background-image: url(./img/7.jpeg);
+  width: fit-content;
+  max-zoom: 100%;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.upper-img{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 5px; */
+}
+.chip-img{
+  width: 25px;
+  border-radius: 5px;
+}
+.visa-img{
+  width: 50px;
+}
+.name-date{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .card-number{
-  padding: 5px;
+  /* padding: 5px; */
+  color: #fff;
+  letter-spacing: 3px;
+  font-size: large;
+  font-weight: 400;
+}
+.label{
+  color: rgba(245, 245, 245, 0.895);
+  font-size: smaller;
+  font-weight: 200;
+}
+.span{
+  font-size: medium;
+  font-weight: 400;
 }
