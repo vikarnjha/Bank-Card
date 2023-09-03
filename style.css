@@ -1,18 +1,26 @@
 body {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.combiner{
+  margin-top: 5vh;
 }
 .card-form {
   background: #fff;
-  box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+  box-shadow: 0 0 5px black;
   border-radius: 10px;
   padding-top: 180px;
   background: aliceblue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 2vw 4vw;
+  padding-top: 25vh;
   width: 90%;
   max-width: 500px;
+  margin-bottom: 10px;
 }
 .card-input-label {
   font-size: 14px;
@@ -52,6 +60,9 @@ button {
   margin-top: 20px;
   cursor: pointer;
 }
+.button:hover{
+  background: #0a4ec5;
+}
 .-select {
   width: 25%;
   background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUxJREFUeNrM1sEJwkAQBdCsngXPHsQO9O5FS7AAMVYgdqAd2IGCDWgFnryLFQiCZ8EGnJUNimiyM/tnk4HNEAg/8y6ZmMRVqz9eUJvRaSbvutCZ347bXVJy/ZnvTmdJ862Me+hAbZCTs6GHpyUi1tTSvPnqTpoWZPUa7W7ncT3vK4h4zVejy8QzM3WhVUO8ykI6jOxoGA4ig3BLHcNFSCGqGAkig2yqgpEiMsjSfY9LxYQg7L6r0X6wS29YJiYQYecemY+wHrXD1+bklGhpAhBDeu/JfIVGxaAQ9sb8CI+CQSJ+QmJg0Ii/EE2MBiIXooHRQhRCkBhNhBcEhLkwf05ZCG8ICCOpk0MULmvDSY2M8UawIRExLIQIEgHDRoghihgRIgiigBEjgiFATBACAgFgghEwSAAGgoBCBBgYAg5hYKAIFYgHBo6w9RRgAFfy160QuV8NAAAAAElFTkSuQmCC);
@@ -82,4 +93,14 @@ option {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+}
+
+
+/* card view css starts here  */
+
+.upperpart {
+  border: 1px solid black;
+}
+.card-number{
+  padding: 5px;
 }

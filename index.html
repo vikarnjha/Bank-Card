@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Bank Card</title>
-</head>
-<body>
-    <div class="card-form">
+  </head>
+  <body>
+    <div class="upperpart">
+      <h1 class="card-number">4166 4450 0125 0123</h1>
+    </div>
+    <div class="lowerpart">
+      <div class="card-form">
         <div class="card-input">
-          <label for="cardNumber" class="card-input-label"
-            >Card Number</label
-          >
+          <label for="cardNumber" class="card-input-label">Card Number</label>
           <input
             type="text"
             id="cardNumber"
@@ -21,11 +23,7 @@
         </div>
         <div class="card-input">
           <label for="cardName" class="card-input-label">Card Holders</label>
-          <input
-            type="text"
-            id="cardName"
-            class="card-input-input"
-          />
+          <input type="text" id="cardName" class="card-input-input" />
         </div>
         <div class="card-form-row">
           <div class="card-form-col">
@@ -33,10 +31,7 @@
               <label for="cardMonth" class="card-input-label"
                 >Expiration Date</label
               >
-              <select
-                class="card-input-input -select"
-                id="cardMonth"
-              >
+              <select class="card-input-input -select" id="cardMonth">
                 <option value="" disabled selected>Month</option>
                 <option>01</option>
                 <option>02</option>
@@ -51,10 +46,7 @@
                 <option>11</option>
                 <option>12</option>
               </select>
-              <select
-                class="card-input-input -select"
-                id="cardYear"
-              >
+              <select class="card-input-input -select" id="cardYear">
                 <option value="" disabled selected>Year</option>
                 <option>2023</option>
                 <option>2024</option>
@@ -84,10 +76,9 @@
             </div>
           </div>
         </div>
-    
-        <button>Submit</button>
+
+        <button class="button">Submit</button>
       </div>
     </div>
-    </div>
-</body>
+  </body>
 </html>
